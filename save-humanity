@@ -1,0 +1,9 @@
+The problem is more difficult than that.
+Try these approaches and see which one you can safely implement:
+Suffix array and then attach LCP/LCA as well to. This you can enhance with kangaroo method.
+Modified Knuth-Moris-Prat
+Boolean convolutions (mismatching characters)
+Counting method, masked counting ... there are more but these are typical
+All these taken separately are not extremely difficult to understand or implement. Only together they will give you more than a direct approach which you have tried and which is whatever you do quadratic or even cubic, although it may look hidden at first.
+Just try to implement some of them on their own, until you understand the technique, then you can safely apply it to what you have in this problem.
+In essence do not try solving this problem per se, try using known technique for similar problems. Yeah, it takes some fun out on being inventive, but there are so many variants that just by trying them all on this problem you will learn a lot.
